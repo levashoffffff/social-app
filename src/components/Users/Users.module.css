@@ -1,0 +1,49 @@
+.users {
+    padding: 10px;
+    position: relative;
+}
+
+.user-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.pagination {
+    margin-bottom: 10px;
+}
+
+.notSelectedPages {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.selectedPages {
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.user-item img {
+    width: 150px;
+    height: 150px;
+}
+
+.follow-btn button {
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #77bcf5;
+    border: none;
+    margin-top: 5px;
+    transition: all 0.5s ease;
+}
+
+.follow-btn button:hover {
+    background-color: #4289c4;
+}
+
+.user-name {
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
+}

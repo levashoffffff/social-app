@@ -1,0 +1,11 @@
+.header {
+    height: 50px;
+    background-color: #77bcf5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login {
+    line-height: 1;
+}

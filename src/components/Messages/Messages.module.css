@@ -1,0 +1,30 @@
+.messages {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+.messages-user {
+    margin-right: 50px;
+}
+
+.messages_dialog textarea {
+    width: 300px;
+    height: 100px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.messages_dialog button {
+    display: block;
+    padding: 10px;
+    margin: 5px 10px 0px 0px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s ease;
+    background-color: #77bcf5;
+}
+
+.messages_dialog button:hover {
+    background-color: #55a3e2;
+}

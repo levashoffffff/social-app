@@ -1,0 +1,21 @@
+.sidebar {
+    flex: 0 0 20%;
+    background-color: #ece9e9;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+}
+
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #77bcf5;
+}
+
+.color_link {
+    color: #1f1f1f;
+    text-decoration: none;
+}
