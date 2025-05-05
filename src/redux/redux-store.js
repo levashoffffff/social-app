@@ -15,7 +15,7 @@ let reducers = combineReducers({
     settingsPage: settingsPageReducer
 });
 
-const store = createStore(reducers);
+const store = createStore(reducers, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 //Сделали переменную глобальной, чтобы обращаться к ней в консоле
 window.store = store;
